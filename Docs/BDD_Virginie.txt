@@ -15,3 +15,31 @@ CREATE DATABASE Library OWNER Lea;
 
 - Créer une table
 CREATE TABLE leads (id INTEGER PRIMARY KEY, name VARCHAR);
+
+- Utilisation de SQL Power Architect pour le MPD
+(voir "05 MPD library" dans ScreenShot ou "librarydb" dans sql_File)
+
+- Insérer un nouveau champs dans une table
+INSERT INTO employes (id_employe, nom, prenom, email, birthday, DateEmp)
+	VALUES (15051991, 'Finez', 'Virginie', 'virginie.finez@hogwarts.uk', '1991-05-15', '2018-01-01');
+
+- Insérer plusieurs champs dans une table
+INSERT INTO membres (num_carte, nom, prenom, adress_1, ville, zipcode, birthday, email, genre)
+	VALUES (31071980, 'Potter', 'Harry', '4 Privet Drive', 'Little Whinging', 59000, '1980-07-31', 'harrypotter@hogwarts.uk', 'masculin'),
+		(01031980, 'Weasley', 'Ronald', 'Chez ses parents', 'Le Terrier', 59000, '1980-03-01', 'rw@hogwarts.uk', 'masculin');
+
+- Modifier un champs dans une table
+UPDATE membres SET prenom = 'Ron'
+	WHERE membres.num_carte = 1031980;
+
+- Supprimer un champs dans une table
+DELETE FROM membres
+	WHERE membres.num_carte = 1031980;
+
+- Effectuer une recherche à partir d'un nom
+SELECT * FROM membres
+	WHERE nom = 'Potter';
+
+- Effectuer une recherche entre deux dates
+SELECT * FROM membres
+	WHERE birthday > '1975-01-01' AND birthday < '1985-01-01';
