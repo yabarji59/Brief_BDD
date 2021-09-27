@@ -1,0 +1,9 @@
+- Créer un user sur SQL Shell
+CREATE ROLE leo;
+
+- Attribuer le rôle "création de base de données"
+ALTER ROLE Leo CREATEDB;
+
+- Attribuer le rôle "superuser"
+ALTER ROLE Leo SUPERUSER;
+
