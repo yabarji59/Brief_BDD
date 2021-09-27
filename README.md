@@ -30,7 +30,7 @@ Activités et tâches
   *  creation de database
 - Modifier role et passer en superuser
 - Changer le nom du user de Leo à Lea
-- Creer une database Librairie en specifiant que vous en etes le owner.
+- Creer une database Library en specifiant que vous en etes le owner.
 - Se connecter a la BDD
 - Creer la table lead  avec cette commande :
  ```sh
@@ -56,7 +56,7 @@ CREATE TABLE leads (id INTEGER PRIMARY KEY, name VARCHAR);
     - id_livre type entier (pk)
     - id_editeur type entier (fk)
     - titre type charactere
-    - prix type charactere
+    - prix type flottant
     - categorie type charactere
     - nb_Page type entier
     
