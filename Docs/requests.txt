@@ -1,0 +1,39 @@
+1 - REQUETE POUR MODIFIER LA BDD
+
+Exemple : modifier nom de famille d'un membre
+
+UPDATE membres 
+SET nom = Nouveaunom
+WHERE num_carte = 202122458;
+
+
+
+
+2 - REQUETE POUR SUPPRIMER LIGNE DE BDD 
+
+DELETE FROM editeurs where id_editeur = 1;
+=> ne marche pas si l'option ON DELETE de foreign key de livres est restreint. Il faudrait dans notre cas faire un 
+ALTER TABLE livres DROP FOREIGN KEY FK_livres_relation__editeurs;
+puis un 
+ALTER TABLE livres 
+ADD CONSTRAINT fk_livres_relation_editeurs FOREIGN KEY (id_editeur) references editeurs(id_editeur) ON DELETE SET NULL;
+
+On peut aussi mettre CASCADE mais ça supprime alors les livres qui viennent de cet éditeur là et ainsi de suite selon les foreign keys des livres concernés.
+
+Les seules lignes de BDD qu'on peut supprimer dans notre base sont celles de la table prêts. 
+DELETE FROM prets where id_pret = 1; par exemple.
+
+
+
+
+3 - REQUETE POUR EFFECTUER UNE RECHERCHE A PARTIR D'UN NOM
+
+SELECT * FROM employe WHERE nom = Nomàchercher;
+
+
+
+4 - REQUETE POUR EFFECTUER UNE RECHERCHE ENTRE DEUX DATES
+
+SELECT * FROM prets WHERE date_sortie BETWEEN '2020-10-12' AND '2021-09-27';
+
+
