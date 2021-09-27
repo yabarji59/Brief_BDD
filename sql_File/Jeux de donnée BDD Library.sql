@@ -16,7 +16,8 @@ INSERT INTO public.livres(
 	VALUES 
 	(55, 'Les aventures des développeuses Java','80 €', 'Aventure', 2000, 2),
 	(54, 'Les aventures des développeuses Python','75 €', 'Aventure', 248, 2),
-	(58, 'Yassen et les dévellopeuses Java', '80 €', 'Aventure', 2500, 1);
+	(58, 'Yassen et les dévellopeuses Java', '80 €', 'Aventure', 2500, 1),
+	(53, 'La vérité d''un virus exceptionel','120 €', 'Sante', 200, 3);
 	
 /** Table membres **/
 INSERT INTO public.membres(
@@ -24,7 +25,8 @@ INSERT INTO public.membres(
 	VALUES 
 	(2587, 'DUPONT', 'Alan', '81 rue du bonheur 59000 Lille', null, 'DZ4785', 'Lille', '25/04/1985', 'dupont.alan@yahoo.be', 'M', '0758235654'),
 	(2582, 'DUPOND', 'Christine', '24 rue de la liberté 59800 Lille', null, 'DZ4725', 'Lille', '10/11/1975', 'dupond.christine@yahoo.fr', 'F', '0658231236'),
-	(2584, 'CUVELIER', 'Jean', '53 Boulevard Php 59000 Lille', null, 'DZ7585', 'Lille', '27/04/1990', 'cuvelier.jean@yahoo.be', 'M', '0688735654');
+	(2584, 'CUVELIER', 'Jean', '53 Boulevard Php 59000 Lille', null, 'DZ7585', 'Lille', '27/04/1990', 'cuvelier.jean@yahoo.be', 'M', '0688735654'),
+	(2577, 'TOTO', 'Titi', 'avenue tete 85214 Galaxy', null, 'DZ4254', 'Galaxy', '25/04/1985', 'toto.titi@yahoo.fr', 'M', '0754568654');
 	
 /** Table employes **/
 INSERT INTO public.employes(
