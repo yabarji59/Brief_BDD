@@ -94,6 +94,8 @@ CREATE TABLE leads (id INTEGER PRIMARY KEY, name VARCHAR);
 - Alimenter la BDD
 - Requette pour modifier la BDD
 - Requete pour supprimer ligne de la BDD
+- Requete pour effectuer une recherche à partir d'un nom.
+- Requete pour effectuer une recherche à entre deux dates.
 
 ## Documentation
 
