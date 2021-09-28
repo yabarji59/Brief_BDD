@@ -63,3 +63,46 @@ date_sortie  date,
 date_restitution date,
 penalité  float);
  
+--alimenter ma base 
+INSERT INTO editeurs(
+	 nom, ville, email, num_tel)
+	VALUES ( 'karima', 'lille', 'saidaniikarima@gmail.com', '087968588588');
+
+    INSERT INTO employes(
+	 nom, prenom, email, birthday, dateemp)
+	VALUES ('employe1', 'employe1', 'emailemploye@gmail.com','1991-08-08', '2020-09-09');
+
+    INSERT INTO livres(
+	 titre, prix, categorie, nb_page, editeur)
+	VALUES ( 'gameofthrones', 55.6,'cat1', 300,1);
+
+
+    INSERT INTO membres(
+	 nom, prenom, adress_1, adress_2, ville, zipcode, birthday, email, num_tel)
+	VALUES ( 'membre1', 'mem2', 'adresse1', 'adresse2', 'lille', 89698, '1990-08-08','email',9695055);
+
+
+    INSERT INTO prets(
+	 id_livre, num_carte, id_employe, date_sortie, date_restitution, "penalité")
+	VALUES ( 1, 1, 1, '2020-06-06','2020-05-03', 77.9);
+
+
+ --1 - REQUETE POUR MODIFIER LA BDD
+ UPDATE employes
+	SET  nom='employedujour'
+	WHERE id=1;
+
+ --2 - REQUETE POUR SUPPRIMER LIGNE DE BDD 
+ DELETE FROM editeurs
+	WHERE nom = 'karima6';
+
+ --3 - REQUETE POUR EFFECTUER UNE RECHERCHE A PARTIR D'UN NOM
+SELECT *
+	FROM livres where titre ='gameofthrones';
+
+
+-- 4 - REQUETE POUR EFFECTUER UNE RECHERCHE ENTRE DEUX DATES
+
+SELECT *
+	FROM prets where date_sortie between '2019-12-12' and now();
+
