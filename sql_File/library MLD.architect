@@ -13,7 +13,7 @@
   <table id="TAB1" populated="true" UUID="38f3312c-2dce-4a96-8633-42c224394f62" name="editeurs" objectType="TABLE" physicalName="editeurs" >
    <remarks></remarks>
    <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL2" populated="true" UUID="6447525e-5b01-4ff4-a56e-b0ddfe91cf6b" autoIncrement="false" autoIncrementSequenceName="editeurs_id_seq" defaultValue="" name="id_editeur" nullable="0" physicalName="id_editeur" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL2" populated="true" UUID="6447525e-5b01-4ff4-a56e-b0ddfe91cf6b" autoIncrement="true" autoIncrementSequenceName="editeurs_id_seq" defaultValue="" name="id_editeur" nullable="0" physicalName="id_editeur" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL3" populated="true" UUID="1fbd696d-19bd-42b3-8650-ae1bcd3144a8" autoIncrement="false" autoIncrementSequenceName="editeurs_nom_seq" defaultValue="" name="nom" nullable="0" physicalName="nom" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -42,7 +42,7 @@
   <table id="TAB9" populated="true" UUID="318bed5a-c28e-49c0-aca4-2b206210901f" name="livres" objectType="TABLE" physicalName="livres" >
    <remarks></remarks>
    <folder id="FOLTAB91" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL10" populated="true" UUID="8d7af7e5-d742-4296-97f3-5e5676804838" autoIncrement="false" autoIncrementSequenceName="livres_id_livre_seq" defaultValue="" name="id_livre" nullable="0" physicalName="id_livre" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL10" populated="true" UUID="8d7af7e5-d742-4296-97f3-5e5676804838" autoIncrement="true" autoIncrementSequenceName="livres_id_livre_seq" defaultValue="" name="id_livre" nullable="0" physicalName="id_livre" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL11" populated="true" UUID="8b8054ac-b475-4241-9ce3-7b983eafc8c8" autoIncrement="false" autoIncrementSequenceName="editeurs_id_seq" defaultValue="" name="id_editeur" nullable="0" physicalName="id_editeur" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
@@ -74,7 +74,7 @@
   <table id="TAB18" populated="true" UUID="f3032b1a-2aa9-4b3c-af84-3238a2c197ff" name="membres" objectType="TABLE" physicalName="membres" >
    <remarks></remarks>
    <folder id="FOLTAB181" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL19" populated="true" UUID="2275c6a4-954f-4869-b1b3-db57b7a69cae" autoIncrement="false" autoIncrementSequenceName="membres_num_carte_seq" defaultValue="" name="num_carte" nullable="0" physicalName="num_carte" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL19" populated="true" UUID="2275c6a4-954f-4869-b1b3-db57b7a69cae" autoIncrement="true" autoIncrementSequenceName="membres_num_carte_seq" defaultValue="" name="num_carte" nullable="0" physicalName="num_carte" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL20" populated="true" UUID="a063f3d3-dd76-4324-af43-dd19d0b39584" autoIncrement="false" autoIncrementSequenceName="membres_nom_seq" defaultValue="" name="nom" nullable="0" physicalName="nom" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -121,7 +121,7 @@
   <table id="TAB32" populated="true" UUID="581ed8b9-67fe-45fe-9520-f4e68e3c3862" name="employes" objectType="TABLE" physicalName="employes" >
    <remarks></remarks>
    <folder id="FOLTAB321" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL33" populated="true" UUID="aa43ed50-3927-479c-a888-aa1730f2a228" autoIncrement="false" autoIncrementSequenceName="employes_id_employe_seq" defaultValue="" name="id_employe" nullable="0" physicalName="id_employe" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL33" populated="true" UUID="aa43ed50-3927-479c-a888-aa1730f2a228" autoIncrement="true" autoIncrementSequenceName="employes_id_employe_seq" defaultValue="" name="id_employe" nullable="0" physicalName="id_employe" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL34" populated="true" UUID="70d91f7a-05f3-457e-ae3c-a66e7406a08d" autoIncrement="false" autoIncrementSequenceName="employes_nom _seq" defaultValue="" name="nom " nullable="0" physicalName="nom " precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -153,7 +153,7 @@
   <table id="TAB41" populated="true" UUID="647058b7-aa05-46e3-a821-db2d19a01a55" name="prets" objectType="TABLE" physicalName="prets" >
    <remarks></remarks>
    <folder id="FOLTAB411" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL42" populated="true" UUID="11d69510-1a63-4454-93b2-cdeca26e4f90" autoIncrement="false" autoIncrementSequenceName="près_num_pret_seq" defaultValue="" name="id_pret" nullable="0" physicalName="id_pret" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL42" populated="true" UUID="11d69510-1a63-4454-93b2-cdeca26e4f90" autoIncrement="true" autoIncrementSequenceName="près_num_pret_seq" defaultValue="" name="id_pret" nullable="0" physicalName="id_pret" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL43" populated="true" UUID="1e9dc5b6-209c-4725-9791-e00b20904a9b" autoIncrement="false" autoIncrementSequenceName="prets_id_employe_seq" defaultValue="" name="id_employe" nullable="0" physicalName="id_employe" precision="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
@@ -189,13 +189,13 @@
    <relationship id="REL51" populated="true" UUID="2ba43bcc-f92e-4604-b68c-7caa64461c4d" deferrability="7" deleteRule="3" fk-table-ref="TAB9" fkCardinality="7" identifying="false" name="editeurs_livres_fk" physicalName="editeurs_livres_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP52" populated="true" UUID="f1379471-eb12-490d-bae8-3706e7465678" fk-column-ref="COL11" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL53" populated="true" UUID="1b20a8e9-7810-42b9-a463-8ae9dd549fa0" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="livres_près_fk" physicalName="livres_près_fk" pk-table-ref="TAB9" pkCardinality="2" updateRule="3" >
+   <relationship id="REL53" populated="true" UUID="1b20a8e9-7810-42b9-a463-8ae9dd549fa0" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="livres_près_fk" physicalName="livres_pr_s_fk" pk-table-ref="TAB9" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP54" populated="true" UUID="056fc74c-165f-4810-b70d-925cbf1c4445" fk-column-ref="COL45" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL10" />
    </relationship>
-   <relationship id="REL55" populated="true" UUID="02c644bc-196d-4e42-bdcc-a82fe34dfcfa" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="membres_près_fk" physicalName="membres_près_fk" pk-table-ref="TAB18" pkCardinality="2" updateRule="3" >
+   <relationship id="REL55" populated="true" UUID="02c644bc-196d-4e42-bdcc-a82fe34dfcfa" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="membres_près_fk" physicalName="membres_pr_s_fk" pk-table-ref="TAB18" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP56" populated="true" UUID="e82ac424-2dbf-4202-82ee-cfe79fd452fe" fk-column-ref="COL44" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL19" />
    </relationship>
-   <relationship id="REL57" populated="true" UUID="2bc5b67f-63a4-47c0-abbf-7a3eade6ec48" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="employés_près_fk" physicalName="employés_près_fk" pk-table-ref="TAB32" pkCardinality="2" updateRule="3" >
+   <relationship id="REL57" populated="true" UUID="2bc5b67f-63a4-47c0-abbf-7a3eade6ec48" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="true" name="employés_près_fk" physicalName="employ_s_pr_s_fk" pk-table-ref="TAB32" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP58" populated="true" UUID="395c4ebf-c270-46b3-a36c-e6b2406c3dd6" fk-column-ref="COL43" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL33" />
    </relationship>
   </relationships>
