@@ -1,0 +1,8 @@
+Règle de gestion
+
+RG-01 : Un éditeur publie un ou plusieurs livres ;
+RG-02 : L'employé gére les prêts des livres de la bibliothèque ;
+RG-03 : Un membre peut réalise un prêts d'un ou plusieurs livres;
+RG-04 : Un livre peut être concerné par plusieurs prêts ;
+
+
