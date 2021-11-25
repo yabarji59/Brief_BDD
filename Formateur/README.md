@@ -104,7 +104,7 @@ Ainsi que toute les ressource donnés pendant le module.
 
 - [Docs officiel Postgresql] - HTML enhanced for web apps!
 
-> Note: N'oubliez pas de pusher votre code dans vos branches respectives `!!! Attention à ne surtout pas dans la develop et encore moins dans la branche main !!!`.
+> Note: N'oubliez pas de pusher votre code dans vos branches respectives `!!! Attention à ne surtout pas pusher dans la develop et encore moins dans la branche main !!!`.
 
 ## License
 
